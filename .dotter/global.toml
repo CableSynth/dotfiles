@@ -1,0 +1,17 @@
+# Helpers are user-defined functions that can be executed inside templates.
+# This section is optional.
+[helpers]
+color_hex2rgb = "dotter_settings/helpers/color_hex2rgb.rhai"
+
+[default]
+depends = []
+
+[zsh.files]
+zshrc = "~/.zshrc"
+
+[default.files]
+"alacritty.yml" = "~/.config/alacritty/alacritty.yml"
+"neovim.vm" = "~/.config/nvim/init.vm"
+xinit = "~/.xinitrc"
+
+[default.variables]
