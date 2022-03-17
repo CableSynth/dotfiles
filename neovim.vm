@@ -1,4 +1,5 @@
-call plug#begin('~/.vim/plugged')
+" Plugins will be downloaded under the specified directory.
+call plug#begin(has('nvim') ? stdpath('data') . '/plugged' : '~/.vim/plugged')
 
 Plug 'preservim/nerdtree'
 
